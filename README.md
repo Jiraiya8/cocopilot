@@ -10,3 +10,14 @@
 6. 这是个小玩具，可能测试不充分，别找我。
 
 #### 对于`VSCode`，步骤基本相同，执行对应`vscode.sh`/`vscode.bat`，**无需执行**`cocopilot.sh`/`cocopilot.bat`。
+
+
+## 贡献者们
+
+> 感谢所有让这个项目变得更好的贡献者们！
+
+[![Star History Chart](https://contrib.rocks/image?repo=pengzhile/cocopilot)](https://github.com/pengzhile/cocopilot/graphs/contributors)
+
+## Star历史
+
+![Star History Chart](https://api.star-history.com/svg?repos=pengzhile/cocopilot&type=Date)
