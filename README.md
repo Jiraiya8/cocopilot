@@ -10,7 +10,7 @@
 5. 重启你的IDE就好。此方式对`Vim/NeoVim`亦有效。
 6. 这是个小玩具，可能测试不充分，别找我。
 
-#### 对于`VSCode`，步骤基本相同，执行对应`vscode.sh`/`vscode.bat`，**无需执行**`cocopilot.sh`/`cocopilot.bat`。
+#### 对于`VSCode`，步骤基本相同，执行对应`vscode.sh`/`vscode.bat`（如果是使用vscode远程连接Ubuntu服务器且副驾驶拓展安装在了远程服务器上，需要执行 `vscode-remote.sh`），**无需执行**`cocopilot.sh`/`cocopilot.bat`。
 #### `VSCode`中插件更新后需要重新执行脚本，`JetBrains`则不需要。
 
 
