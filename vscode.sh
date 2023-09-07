@@ -8,7 +8,7 @@ if [ ! -d "$EXTENSIONS_DIR" ]; then
   exit 1
 fi
 
-COPILOT_DIR=$(ls -lt "$EXTENSIONS_DIR" | grep '^d' | awk '{print $9}' | grep -E '^github\.copilot-\d+\.\d+\.\d+$' | head -n 1)
+COPILOT_DIR=$(ls -lt "$EXTENSIONS_DIR" | grep '^d' | awk '{print $9}' | grep -E '^github\.copilot-[0-9]+\.[0-9]+\.[0-9]+$' | head -n 1)
 if [ -z "$COPILOT_DIR" ]; then
   echo "ERROR: Copilot extension not found!"
   exit 1
